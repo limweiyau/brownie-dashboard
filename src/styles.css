@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #f5f5f7;
+  --color-ink: #1d1d1f;
+  --color-sub: #6e6e73;
+  --color-line: #e5e5ea;
+  --color-brand: #007aff;
+  --color-brand-deep: #0051c7;
+  --color-chip: #e8f1fd;
+
+  --radius-xl: 0.625rem;
+  --radius-2xl: 0.75rem;
+}
+
+html {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
