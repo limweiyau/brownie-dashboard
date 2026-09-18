@@ -46,7 +46,7 @@ export function NavBar(): ReactElement {
         <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5">
         <nav aria-label="Breadcrumb" className="flex items-center gap-1.5">
           <Link to="/" aria-label="Brownie home" className="flex items-center gap-2">
-            <img src="/brownie.png" width={30} height={30} alt="Brownie" className="rounded-lg" />
+            <img src={`${import.meta.env.BASE_URL}brownie.png`} width={30} height={30} alt="Brownie" className="rounded-lg" />
             <span className="font-bold">Brownie</span>
           </Link>
           {onResident && (

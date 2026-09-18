@@ -16,5 +16,6 @@ export default defineConfig({
   server: {
     port: 8903,
     host: "127.0.0.1",
+    allowedHosts: [".trycloudflare.com"],
   },
 });
